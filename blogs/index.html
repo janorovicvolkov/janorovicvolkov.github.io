@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogs | Janorovic Volkov</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/fox.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="intro">
+<div data-site-header></div>
+<main class="content blog-content">
+  <section class="blog-heading" aria-labelledby="blog-title">
+    <div>
+      <div class="eyebrow"><span class="pulse"></span> Small blogs</div>
+      <h1 id="blog-title">Writting <br><em>corner</em></h1>
+    </div>
+    <p class="blog-intro">Blogs, short notes, observations, and longer thoughts about something Janorovic in minds.</p>
+  </section>
+  <form id="post-search" class="post-search" role="search">
+    <label class="sr-only" for="search-input">Search blog posts</label>
+    <input id="search-input" type="search" placeholder="Search something...." autocomplete="off">
+    <button type="submit" aria-label="Search blog posts">Search <span>↗</span></button>
+  </form>
+  <section id="post-list" class="post-list" aria-label="Blog posts">
+    <p class="loading-state">Loading....</p>
+  </section>
+</main>
+<footer class="site-footer"><span>© <span id="year"></span> Janorovic Volkov</span><span>Designed with curiosity <i>✦</i></span></footer>
+<script src="/script.js"></script>
+<script src="/blogs/blog.js"></script>
+</body>
+</html>
