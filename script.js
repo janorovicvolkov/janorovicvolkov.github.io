@@ -15,7 +15,7 @@ function createSiteHeader() {
     ];
     mount.innerHTML = `
       <header class="topbar">
-        <a class="header-link" href="/"><img src="/assets/fox.svg" alt="Fox">Janorovic<span>Volkov</span></a>
+        <a class="top-title" href="/"><img src="/assets/fox.svg" alt="Fox">Janorovic<span>Volkov</span></a>
         <nav class="top-nav" aria-label="Main navigation">
           ${links.map((link) => `
             <a class="${currentPath === link.href.replace(/\/$/, "") || (link.href === "/" && currentPath === "/") ? "active" : ""}" href="${link.href}">${link.label}</a>
