@@ -159,6 +159,5 @@ body.intro .content, body.intro .site-footer { animation: introUp .8s ease-out b
   .signal-grid { grid-template-columns: 1fr; margin-top: 10px; }
   .side-note { display: none; }
   .glass-card { min-height: 160px; }
-  .site-footer { padding: 20px 22px 25px; font-size: 9px; }
-  .site-footer span:last-child { display: none; }
+  .site-footer { padding: 20px 22px 25px; font-size: 9px; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
 }
