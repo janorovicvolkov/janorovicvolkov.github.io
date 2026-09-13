@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/4872423/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://janorovicvolkov.github.io/</loc>
+       <lastmod>2026-09-13T05:40:07+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://janorovicvolkov.github.io/blogs/</loc>
+       <lastmod>2026-09-13T05:40:07+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://janorovicvolkov.github.io/profile/</loc>
+       <lastmod>2026-09-13T05:40:07+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://janorovicvolkov.github.io/projects/</loc>
+       <lastmod>2026-09-13T05:40:07+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://janorovicvolkov.github.io/disclaimer/</loc>
+       <lastmod>2026-09-13T05:40:07+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.7000</priority>
+  </url>
+  <url>
+       <loc>https://janorovicvolkov.github.io/miscellaneous/</loc>
+       <lastmod>2026-09-13T05:40:07+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.7000</priority>
+  </url>
+</urlset>
