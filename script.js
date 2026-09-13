@@ -7,11 +7,11 @@ function createSiteHeader() {
     }
     const currentPath = window.location.pathname.replace(/\/$/, "") || "/";
     const links = [
-        { label: "Home", href: "/" },
         { label: "Projects", href: "/projects/" },
         { label: "Blogs", href: "/blogs/" },
         { label: "Profile", href: "/profile/" },
-        { label: "Disclaimer", href: "/disclaimer/" }
+        { label: "Disclaimer", href: "/disclaimer/" },
+        { label: "Miscellaneous", href: "/miscellaneous/" }
     ];
     mount.innerHTML = `
       <header class="topbar">
